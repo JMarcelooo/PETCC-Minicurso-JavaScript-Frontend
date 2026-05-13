@@ -114,5 +114,5 @@ formulario.addEventListener('submit', (e) => {
     const dados = new FormData(formulario);
     const valores = Object.fromEntries(dados.entries());
     
-    console.log(valores); 
+    alert(valores); 
 });
